@@ -1,11 +1,11 @@
-site_name: GianDocs
-site_description: 'A Material Design theme for MkDocs'
-site_author: 'Giancarlos Salas'
-repo_url: 'https://github.com/giansalex/mkdocs-sample'
+site_name: My-Docs
+site_description: 'A Login option for MkDocs Material'
+site_author: 'JRichardsz'
+repo_url: 'https://github.com/jrichardsz-software-architect-tools/mkdocs-template'
 nav:
     - Home: index.md
-    - About: about.md
-    - Code: code.md
+    - About:
+      - about: about/about.md
 theme:
   name: 'material'
   language: 'es'
@@ -14,9 +14,9 @@ theme:
     accent: 'Indigo'
 
 extra_css:
-  - 'css/prism.css'
+  - 'assets/css/prism.css'
 extra_javascript:
-  - js/prism.js
+  - assets/js/prism.js
 
 extra:
   social:

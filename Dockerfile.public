@@ -1,0 +1,9 @@
+FROM python:3
+
+RUN mkdir -p /usr/src/app
+COPY . /usr/src/app
+WORKDIR /usr/src/app
+RUN pip install -r requirements.txt
+RUN mkdocs build
+WORKDIR /usr/src/app/site
+CMD ["python", "-m", "http.server", "8000" ]
