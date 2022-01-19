@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nodeboot-web-security-starter": "jrichardsz-software-architect-tools/nodeboot-web-security-starter#main"
+    "nodeboot-web-security-starter": "git+https://github.com/jrichardsz-software-architect-tools/nodeboot-web-security-starter.git"
   }
 }
